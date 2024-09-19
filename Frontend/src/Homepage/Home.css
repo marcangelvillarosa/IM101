@@ -1,0 +1,47 @@
+.main
+{
+    background-image: url("../assets/p3.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.book
+{
+    transition: 0.2s;
+    animation: ease-in-out;
+}
+.book:hover
+{
+    background-color: white;
+    animation: ease-in-out;
+    transition: 0.2s;
+    width: 25%;
+}
+.book:hover button
+{
+    color: black;
+}
+
+.hcspa
+{
+    background-image: url("../assets//hc+spa.png");
+    background-repeat: repeat;
+    background-size: cover;
+}
+.rbkr
+{
+    background-image: url("../assets//rb+kr.png");
+    background-repeat: repeat;
+    background-size: cover;
+}
+.bbhc
+{
+    background-image: url("../assets//bb+hc.png");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.items::-webkit-scrollbar {
+    display: none;
+}
